@@ -1,0 +1,14 @@
+{
+  "name": "synchronize-calls",
+  "version": "1.0.1",
+  "main": "dist",
+  "scripts": {
+    "prepublish": "babel lib -d dist"
+  },
+  "peerDependencies": {
+    "babel-runtime": "~5.4"
+  },
+  "devDependencies": {
+    "babel": "~5.4"
+  }
+}
